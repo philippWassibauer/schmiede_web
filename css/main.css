@@ -56,14 +56,14 @@ body {
 .claim {
   background-color: #333;
   height: 530px;
-  background-image: url(/images/main_image.jpg);
+  background-image: url(http://philippwassibauer.github.io/schmiede_web/images/main_image.jpg);
   padding: 150px 40px 0;
 }
 
 .location {
   background-color: #333;
   height: 530px;
-  background-image: url(/images/location.jpg);
+  background-image: url(http://philippwassibauer.github.io/schmiede_web/images/location.jpg);
   padding: 150px 40px 0;
 }
 

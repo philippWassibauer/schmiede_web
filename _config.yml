@@ -1,3 +1,4 @@
-name: Your New Jekyll Sitess
+name: Schmiede - Playground of Ideas
 markdown: redcarpet
 pygments: true
+base_url: http://philippwassibauer.github.io/schmiede_web
