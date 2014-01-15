@@ -196,10 +196,11 @@
 
 .navbar-default .navbar-nav>li>a{
   font-size: 22px;
-  line-height: 30px;
+  line-height: 26px;
   color: #181818;
   display: block;
-  margin: 9px 9px 0 0;
+  margin: 18px 14px 0 0;
+  padding: 10px;
 }
 
 .navbar-nav {

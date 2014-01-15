@@ -2,7 +2,11 @@ body {
   background-color: #FFF;
   font: 16px "brandon-grotesque", sans-serif;
   font-size: small;
-  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 900;
 }
 
 .logo {
@@ -21,6 +25,7 @@ body {
   background-position: center;
   color: #FFF;
   position: relative;
+  text-shadow: 0px 0px 12px #000000;
 }
 
 
@@ -35,6 +40,7 @@ body {
   max-width: 900px;
   position: relative;
   margin: 0px auto 20px auto;
+  text-align: center;
 }
 
 .white-text-section {
@@ -77,4 +83,51 @@ body {
   font-size: 24px;
   font-weight: 300;
   line-height: 40px;
+}
+
+.btn.yellow {
+  background-color: #F8E71C;
+  color: #181818;
+  border-color: #F8E71C;
+  background-image: none;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 900;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.yellow.btn-primary:hover {
+  background-color: #E2D31D;
+}
+
+.navbar-default .navbar-nav>li>a.yellow.btn {
+
+}
+
+
+
+.footer {
+  margin: 40px 0px 80px 0px;
+  text-align: left;
+}
+
+.footer h3 {
+  font-size: 18px;
+}
+
+.footer ul{
+  padding: 0 0 0 0;
+}
+
+.footer li{
+  list-style: none;
+  padding: 5px 0;
+}
+
+.footer a{
+  color: #181818;
+  font-size: 18px;
 }
