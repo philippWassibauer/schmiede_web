@@ -1,7 +1,6 @@
 body {
   background-color: #FFF;
   font: 16px "brandon-grotesque", sans-serif;
-  font-size: small;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,4 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer a{
   color: #181818;
   font-size: 18px;
+}
+
+.content-area {
+  margin: 40px 0 0 10px;
 }
