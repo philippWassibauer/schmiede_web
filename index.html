@@ -9,11 +9,6 @@ title: Schmiede - Playground of Ideas
     The Schmiede is a cooperative prototyping environment. Focused on the arts,
     hacking and entrepreneurship, it is a place where our ideas come to play.
   </p>
-  <!--<ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>-->
 </div>
 
 <div class="white-text-section">
@@ -33,10 +28,29 @@ title: Schmiede - Playground of Ideas
     ... a beautiful location and souroundings helps to focus on your projects and recharge creatively.
   </p>
   <p>
-    <a href="" class="btn btn-primary btn-lg yellow">MORE INFO</a>
+    <a href="{{ site.base_url }}/location" class="btn btn-primary btn-lg yellow">MORE INFO</a>
   </p>
 </div>
 
+<div class="white-text-section">
+  <ul class="testimonials container">
+    {% for testimonial in site.data.testimonials %}
+      <li class="testimonial col-md-{{ testimonial.size }}">
+        <div class="circular image"
+          style="background-image: url({{ site.base_url }}/images/testimonials/{{ testimonial.image }});"></div>
+        <div class="content">
+          <p>
+            <span class="quotes quotes-left">“</span>
+            {{ testimonial.testimonial }}
+            <span class="quotes quotes-right">”</span>
+          </p>
+          <span>{{ testimonial.name }} - {{ testimonial.title }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <div style="clear: both;"></div>
+</div>
 
 <div class="image-section" style="background-image: url({{ site.base_url }}/images/invent_sports.jpg);">
   <h2>
