@@ -34,7 +34,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 150px 40px 1px;
 }
 
-
 .white-text-section h1,
 .image-section h1,
 .white-text-section h2,
@@ -49,9 +48,20 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.grey-text-section,
 .white-text-section {
-  padding: 120px 40px;
+  padding: 40px;
   color: #171717;
+}
+
+.heading-text-section {
+  padding: 120px 40px;
+}
+
+.grey-text-section {
+  padding: 40px 40px;
+  color: #171717;
+  background-color: #EEE;
 }
 
 .image-section h2,
@@ -204,4 +214,12 @@ h1, h2, h3, h4, h5, h6 {
 #schmiede-apply-form {
   border: 1px solid #ccc;
   overflow: hidden;
+}
+
+.application .dl-horizontal dd {
+  margin-left: 250px;
+}
+
+.application .dl-horizontal dt {
+  width: 220px;
 }
