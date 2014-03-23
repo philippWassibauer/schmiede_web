@@ -3,7 +3,7 @@ layout: default
 title: Schmiede - Playground of Ideas
 ---
 
-<div class="claim image-section" style="background-image: url({{ site.base_url }}/images/main_image.jpg)">
+<div class="claim image-section" style="background-image: url(/images/main_image.jpg)">
   <h1>PLAYGROUND OF IDEAS</h1>
   <p>
     Schmiede is a cooperative prototyping environment, focused on the arts, hacking
@@ -25,30 +25,37 @@ title: Schmiede - Playground of Ideas
       <iframe src="//player.vimeo.com/video/64489715" width="600px" height="340px"
         frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
-    <div class="col-md-5">
-      Not sure what text to put here. Still need some
+    <div class="col-md-5 lead">
+      Take a look and in 5:20 get a feeling of the atmosphere and scope of Schmiede. Meet some of the Smiths, see what they are like and what they have to say about Schmiede.
+
+      you can also listen to <a href="https://soundcloud.com/schmiede/sets/schmiedeinterviews">SmithInterviews on SoundCloud</a>
+
     </div>
   </div>
 </div>
 <div class="white-text-section">
-  <h3>WHAT PEOPLE SAY:</h3>
-  <ul class="testimonials container">
-    {% for testimonial in site.data.testimonials %}
-      <li class="testimonial col-md-{{ testimonial.size }}">
-        <div class="circular image"
-          style="background-image: url({{ site.base_url }}/images/testimonials/{{ testimonial.image }});"></div>
-        <div class="content">
-          <p>
-            <span class="quotes quotes-left">“</span>
-            {{ testimonial.testimonial }}
-            <span class="quotes quotes-right">”</span>
-          </p>
-          <span>{{ testimonial.name }} - {{ testimonial.title }}</span>
-          <div style="clear:both;"></div>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="container">
+    <div class="col-md-12">
+      <h3>WHAT PEOPLE SAY:</h3>
+      <ul class="testimonials">
+        {% for testimonial in site.data.testimonials %}
+          <li class="testimonial col-md-{{ testimonial.size }}">
+            <div class="circular image"
+              style="background-image: url(/images/testimonials/{{ testimonial.image }});"></div>
+            <div class="content">
+              <p>
+                <span class="quotes quotes-left">“</span>
+                {{ testimonial.testimonial }}
+                <span class="quotes quotes-right">”</span>
+              </p>
+              <span>{{ testimonial.name }} - {{ testimonial.title }}</span>
+              <div style="clear:both;"></div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   <div style="clear: both;"></div>
 </div>
 <div class="location image-section">
@@ -59,7 +66,7 @@ title: Schmiede - Playground of Ideas
     ... a beautiful location and surroundings helps to focus on your projects and recharge creatively.
   </p>
   <p>
-    <a href="{{ site.base_url }}/location" class="btn btn-primary btn-lg yellow">MORE INFO</a>
+    <a href="/location" class="btn btn-primary btn-lg yellow">MORE INFO</a>
   </p>
 </div>
 <div class="image-section" style="background-image: url(http://philippwassibauer.github.io/schmiede_web/images/present.jpg);">
@@ -67,37 +74,37 @@ title: Schmiede - Playground of Ideas
     Got your attention?
   </h2>
   <p>
-    The Schmiede 2014 is from 11. - 22. September.
+    Join us for the Schmiede14, 11. - 22. September 2014
     <br /><br />
-    <a href="http://philippwassibauer.github.io/schmiede_web/location" class="btn btn-primary btn-lg yellow">APPLICATION</a>
+    <a href="/apply/" class="btn btn-primary btn-lg yellow">APPLICATION</a>
   </p>
 </div>
 <!--
-<div class="image-section" style="background-image: url({{ site.base_url }}/images/invent_sports.jpg);">
+<div class="image-section" style="background-image: url(/images/invent_sports.jpg);">
   <h2>
     WE INVENT SPORTS ...
   </h2>
 </div>
 
-<div class="image-section" style="background-image: url({{ site.base_url }}/images/present.jpg);">
+<div class="image-section" style="background-image: url(/images/present.jpg);">
   <h2>
     WE PRESENT ...
   </h2>
 </div>
 
-<div class="image-section" style="background-image: url({{ site.base_url }}/images/work_together.jpg);">
+<div class="image-section" style="background-image: url(/images/work_together.jpg);">
   <h2>
     WE WORK TOGETHER ...
   </h2>
 </div>
 
-<div class="image-section" style="background-image: url({{ site.base_url }}/images/sax_brain.jpg);">
+<div class="image-section" style="background-image: url(/images/sax_brain.jpg);">
   <h2>
     WE CONNECT A SAX TO A BRAIN ...
   </h2>
 </div>
 
-<div class="image-section" style="background-image: url({{ site.base_url }}/images/vr_glasses.jpg);">
+<div class="image-section" style="background-image: url(/images/vr_glasses.jpg);">
   <h2>
     WE DO VR ...
   </h2>
