@@ -1,5 +1,4 @@
 name: Schmiede - Playground of Ideas
 markdown: redcarpet
 pygments: true
-bae_url:
-base_url: http://philippwassibauer.github.io/schmiede_web
+base_url:
