@@ -228,3 +228,22 @@ h1, h2, h3, h4, h5, h6 {
 .inline-page {
   margin-top: 30px;
 }
+
+.central-year-block {
+  padding-left: 1px;
+  margin-top: -2px;
+  background-color: #EFEFEF;
+  margin-bottom: 60px;
+}
+
+.central-year-block div{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  border: 1px #EFEFEF solid;
+  padding-top: 15px;
+}
+
+.central-year-block a{
+  color: #111111;
+}
