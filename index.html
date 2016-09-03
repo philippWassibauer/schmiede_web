@@ -1,27 +1,106 @@
----
-layout: default
-title: Schmiede 2014 - SelbstAssemblierung
----
-<style>
-  .footer .container {
-    padding-left: 30px;
-  }
-</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-<div class="container">
-  <div style="margin: 70px 30px 30px 30px;">
-    <h1 style="font-weight: normal;">SCHMIEDE<b>16</b>: AUSNAHMEZUSTAND <br /></h1>
-    <a target="_BLANK" href="https://issuu.com/schmiede/docs/schmiede16_programm">
-      <img src="/images/2014_header.png">
-    </a>
-    <div class="central-year-block">
-      <div class="col-md-4">
-        <a target="_BLANK" href="https://issuu.com/schmiede/docs/schmiede16_programm">PROGRAMM</a>
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="{{ site.base_url }}/css/syntax.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.base_url }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.base_url }}/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="{{ site.base_url }}/css/main.css">
+
+    <script type="text/javascript" src="//use.typekit.net/cej7ijo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="col-md-12">
+          <a href="{{ site.base_url }}/"><img class="logo" src="{{ site.base_url }}/images/logo.png" /></a>
+          <ul class="nav navbar-nav">
+            <li><a href="{{ site.base_url }}/">About</a></li>
+            <li><a href="http://schmiede.tumblr.com/" target="_BLANK">Blog</a></li>
+            <li><a href="{{ site.base_url }}/location/">Location</a></li>
+            <li><a href="{{ site.base_url }}/medienkunstpreis/">Medienkunstpreis</a></li>
+            <li><a href="{{ site.base_url }}/2016.html" class="btn btn-primary btn-lg yellow" style="font-weight: normal;">PROGRAM<b>16</b></a></li> 
+          </ul>
+        </div>
       </div>
-      <div class="col-md-4">
-        <a href="http://schmiede.tumblr.com/">BLOG</a>
+    </nav>
+    <div class="main">
+      <div style="margin: 70px 30px 30px 30px;">
+        <h1 style="font-weight: normal;">SCHMIEDE<b>16</b>: AUSNAHMEZUSTAND <br /></h1>
+        <a target="_BLANK" href="https://issuu.com/schmiede/docs/schmiede16_programm">
+          
+        </a>
+        <div class="central-year-block">
+          <div class="col-md-4">
+            <a target="_BLANK" href="https://issuu.com/schmiede/docs/schmiede16_programm">PROGRAMM</a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://schmiede.tumblr.com/">BLOG</a>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
       </div>
-      <div style="clear: both;"></div>
+      {{ content }}
+      <div class="footer">
+        <div class="container">
+          <div class="col-md-4">
+            <h3>SCHMIEDE</h3>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/schmiedehallein">Facebook page</a>
+              </li>
+              <li>
+                <a href="http://www.flickr.com/groups/schmiede/">Flickr group</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/SchmiedeHallein/">Twitter</a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/groups/schmiede">Soundcloud</a>
+              </li>
+              <li>
+                <a href="https://vimeo.com/groups/110342">Vimeo</a>
+              </li>
+              <li>
+                <a href="/partners.html">Partners</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>GET INVOLVED</h3>
+            <ul>
+              <li>
+                <a href="/apply/">Apply</a>
+              </li>
+              <li>
+                <a href="/medienkunstpreis/">Medienkunstpreis</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <!--<img src="{{ site.base_url }}/images/anvil.png" />-->
+            <h3>OTHER</h3>
+            <ul>
+              <li>
+                <a href="{{ site.base_url }}/impressum.html">Impressum/Contact</a>
+              </li>
+              <li>
+                <a href="{{ site.base_url }}/tos.html">Therms of service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>
+
