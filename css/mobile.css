@@ -73,7 +73,7 @@
 }
 
 .testimonial .content .quotes-left {
-  left: -7px;
+  left: -12px;
 }
 
 .testimonial .content .quotes-right {
@@ -84,6 +84,10 @@
 
 .testimonial .content span {
   font-size: 16px;
+}
+
+.testimonial .circular {
+  left: -10px;
 }
 
 .circular {
