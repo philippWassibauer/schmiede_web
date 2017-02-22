@@ -7,6 +7,21 @@
   line-height: 30px;
 }
 
+.heading-text-section {
+  padding: 60px 20px;
+}
+
+.image-section h2,
+.white-text-section h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.image-section p,
+.white-text-section p {
+  font-size: 18px;
+}
+
 .image-section {
   min-height: 330px;
   padding: 50px 20px 1px;
@@ -18,20 +33,22 @@
 
 .testimonials {
 	margin: 0px;
+	padding: 0px;
 }
 
 .testimonial {
   margin: 0px auto;
+  padding: 0px auto;
 }
 
 .testimonial .content {
-  margin: 5px 0px 70px;
+  margin: 5px 0px 0px 110px;
   position: relative;
 }
 
 .testimonial .content p {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 20px;
 }
 
 .testimonial .content .quotes {
@@ -46,4 +63,11 @@
   -webkit-border-radius: 45px;
   -moz-border-radius: 45px;
   border-radius: 45px;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 15px;
+    margin-left: -17px;
+    position: relative;
 }
