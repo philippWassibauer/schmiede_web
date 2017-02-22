@@ -1,3 +1,17 @@
 .claim h1 {
-	font-size: 20px;
+	font-size: 40px;
+}
+
+.claim h2 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.image-section {
+  min-height: 330px;
+  padding: 50px 20px 1px;
+}
+
+#schmiede-video {
+	display: none;
 }

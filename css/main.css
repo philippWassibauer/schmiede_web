@@ -92,10 +92,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1px;
   font-size: 60px;
   font-weight: 900;
-
-  @media (min-width: @screen-sm-min) {
-    font-size: 20px;
-  }
 }
 
 .claim h2 {
