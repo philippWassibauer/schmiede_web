@@ -11,6 +11,11 @@
   padding: 60px 20px;
 }
 
+.grey-text-section,
+.white-text-section {
+  padding: 20px 5px;
+}
+
 .image-section h2,
 .white-text-section h2 {
   font-size: 30px;
