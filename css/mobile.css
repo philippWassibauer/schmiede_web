@@ -41,8 +41,13 @@
   padding: 0px auto;
 }
 
+.testimonial-container {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
 .testimonial .content {
-  margin: 5px 0px 0px 110px;
+  margin: 5px 0px 0px 95px;
   position: relative;
 }
 
@@ -57,8 +62,9 @@
 }
 
 .circular {
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
+  background-size: 75px 75px;
   margin: 15px 10px 15px 0px;
   -webkit-border-radius: 45px;
   -moz-border-radius: 45px;
