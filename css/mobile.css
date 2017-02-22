@@ -52,7 +52,7 @@
 }
 
 .testimonial .content {
-  margin: 5px 0px 0px 95px;
+  margin: 5px 0px 0px 70px;
   position: relative;
 }
 
@@ -63,17 +63,30 @@
 
 .testimonial .content .quotes {
   font-size: 26px;
-  position: relative;
+}
+
+.testimonial .content .quotes-left {
+  left: -0px;
+}
+
+.testimonial .content .quotes-right {
+  right: 0px;
+  line-height: 20px;
+  top: 6px;
+}
+
+.testimonial .content span {
+  font-size: 16px;
 }
 
 .circular {
-  width: 75px;
-  height: 75px;
-  background-size: 75px 75px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
   margin: 15px 10px 15px 0px;
-  -webkit-border-radius: 45px;
-  -moz-border-radius: 45px;
-  border-radius: 45px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
 }
 
 .logo {
