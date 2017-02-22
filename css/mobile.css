@@ -15,3 +15,35 @@
 #schmiede-video {
 	display: none;
 }
+
+.testimonials {
+	margin: 0px;
+}
+
+.testimonial {
+  margin: 0px auto;
+}
+
+.testimonial .content {
+  margin: 5px 0px 70px;
+  position: relative;
+}
+
+.testimonial .content p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.testimonial .content .quotes {
+  font-size: 26px;
+  position: relative;
+}
+
+.circular {
+  width: 90px;
+  height: 90px;
+  margin: 15px 10px 15px 0px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+}
