@@ -7,6 +7,13 @@
   line-height: 30px;
 }
 
+.logo {
+    width: 180px;
+    margin-top: 15px;
+    margin-left: -17px;
+    position: relative;
+}
+
 .heading-text-section {
   padding: 60px 20px;
 }
@@ -42,8 +49,8 @@
 }
 
 .testimonial {
-  margin: 0px auto;
-  padding: 0px auto;
+  margin: 10px 0px;
+  padding: 0px 0px;
 }
 
 .testimonial-container {
@@ -52,7 +59,7 @@
 }
 
 .testimonial .content {
-  margin: 5px 0px 0px 70px;
+  margin: 5px 0px 0px 60px;
   position: relative;
 }
 
@@ -66,7 +73,7 @@
 }
 
 .testimonial .content .quotes-left {
-  left: -0px;
+  left: -7px;
 }
 
 .testimonial .content .quotes-right {
@@ -83,15 +90,9 @@
   width: 50px;
   height: 50px;
   background-size: 50px 50px;
-  margin: 15px 10px 15px 0px;
+  margin: 5px 10px 15px 0px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
 
-.logo {
-    width: 180px;
-    margin-top: 15px;
-    margin-left: -17px;
-    position: relative;
-}
