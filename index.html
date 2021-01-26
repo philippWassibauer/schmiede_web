@@ -1,39 +1,164 @@
 ---
 layout: default
-title: Your New Jekyll Sitesss
+title: Schmiede - Playground of Ideas
 ---
 
-<div class="claim image-section">
+
+
+<div class="claim image-section" style="background-image: url(/images/main_image.jpg)">
   <h1>PLAYGROUND OF IDEAS</h1>
   <p>
-    The Schmiede is a cooperative prototyping environment. Focused on the arts, hacking and entrepreneurship.
+    Schmiede is a cooperative prototyping environment, focused on the arts, hacking
+    and entrepreneurship. Schmiede is a place where our ideas come to play.
   </p>
-  <!--<ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>-->
+</div>
+   
+<div class="white-text-section heading-text-section">
+      <!-- <div class="container">
+    <div class="col-md-7">
+      
+      <div data-configid="2046366/53260519" style="width:100%; height:376px;" class="issuuembed"></div>
+      <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+    </div>
+    <div class="col-md-5 lead">
+
+
+ 2018 -->
+
+       <h2 style="font-weight: normal;">Schmiede<b>20</b>:  Pferde / Horses
+</h2> 
+       <p>
+          September 16th till 25th - 2020<br /> 
+          Hallein, Austria<br /> 
+         <a target="_BLANK" href="http://schmiede.ca/apply/">Late Application till May 31st</a>   <br /> <br />     
+ <br /> 
+         </p>  
+  <h2 style="font-weight: normal;">ORTung: Success</h2> 
+       <p>
+          January 2020 <br /> 
+          Hintersee, Austria<br /> 
+         <a target="_BLANK" href="https://schmiede.tumblr.com/post/188853734632/ortung-2020-erfolg-german">Program and Artists</a> <br /> 
+         <a target="_BLANK" href="https://schmiede.tumblr.com/tagged/ortung">Blog</a> - <a target="_BLANK" href="https://www.instagram.com/explore/tags/ortung2020/">Doku</a>  <br />
+            
+         </p>  
+   
+  
+     <!-- <div style="margin: 0 auto; width:700px; position: relative;">
+         <div data-configid="2046366/63655772" style="width:700px; height:600px;" class="issuuembed"></div>
+         <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+       </div>
+       <p>
+         <br />
+         <a target="_BLANK" href="http://bit.ly/schmiede18issuu">Programm (German)</a> - 
+         <a target="_BLANK" href="https://schmiede.tumblr.com/tagged/english">Program (English)</a> <br /> 
+       </p>
+         The <a target="_BLANK" href="https://issuu.com/schmiede">SchmiedeProgram</a> 
+         will have the same basic flow structure as in the past, but with changing labs and projects. 
+As this is a liquid process the details cannot be communicated before August. The general flow at Schmiede: Inspiration, Work, Presentation.
+       </p>
+    <br />
+      <a target="_BLANK" href="http://bit.ly/schmiede18issuu">PROGRAMM</a> | 
+       <a href="http://schmiedehallein.com/blog/">BLOG</a> -->
+    </div>
+  </div>
+</div>
+<div class="grey-text-section">
+  <div class="container">
+    <div class="col-md-7">
+      <iframe id="schmiede-video" src="//player.vimeo.com/video/64489715" width="530px" height="300px"
+        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+      </iframe>
+    </div>
+    <div class="col-md-5 lead">
+      Take a look and in 5:20 get a feeling of the atmosphere and scope of Schmiede. Meet some of the Smiths, see what they are like and what they have to say about Schmiede.
+
+      you can also listen to <a href="https://soundcloud.com/schmiede/sets/schmiedeinterviews">SmithInterviews on SoundCloud</a>
+
+    </div>
+  </div>
 </div>
 
-<div class="white-text-section">
+<div class="white-text-section heading-text-section">
   <h2>
-    WE MEET FOR 10 DAYS
+    WE MEET FOR 10 DAYS ...
   </h2>
   <p>
-    The Schmiede is a cooperative prototyping environment. Focused on the arts,
-    hacking and entrepreneurship with a strong tendency towards digital media,
-    it is a place where our ideas come to play.
+    ... in order to get inspired, network, create, present, collaborate and exchange.
   </p>
 </div>
 
 <div class="location image-section">
   <h2>
-    WE ARE IN HALLEIN
+    WE ARE IN HALLEIN ...
   </h2>
   <p>
-    The Schmiede is a cooperative prototyping environment. Focused on the arts, hacking and entrepreneurship.
+    ... a beautiful location and surroundings helps to focus on your projects and recharge creatively.
   </p>
   <p>
-    <a>More info</a>
+    <a href="/location" class="btn btn-primary btn-lg yellow">MORE INFO</a>
   </p>
 </div>
+
+<div class="white-text-section">
+  <div class="container">
+    <div class="col-md-12 testimonial-container">
+      <h3>WHAT PEOPLE SAY:</h3>
+      <ul class="testimonials">
+        {% for testimonial in site.data.testimonials %}
+          <li class="testimonial col-md-{{ testimonial.size }}">
+             <!--   <div class="circular image"
+              style="background-image: url(/images/testimonials/{{ testimonial.image }});"></div> -->
+            <div class="content">
+              <p>
+                <span class="quotes quotes-left">“</span>
+                {{ testimonial.testimonial }}
+                <span class="quotes quotes-right">”</span>
+              </p>
+              <span>{{ testimonial.name }} - {{ testimonial.title }}</span>
+              <div style="clear:both;"></div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+
+<div class="image-section" style="background-image: url(http://philippwassibauer.github.io/schmiede_web/images/present.jpg);">
+  <h2>
+    Got your attention?
+  </h2>
+ <p>
+    Join us for ten Schmiede days, August/September.
+    <br /><br />
+   <!-- <a href="/apply/" class="btn btn-primary btn-lg yellow">APPLICATION</a> -->
+  </p>
+</div> 
+<!--
+<div class="image-section" style="background-image: url(/images/invent_sports.jpg);">
+  <h2>
+    WE INVENT SPORTS ...
+  </h2>
+</div> 
+<div class="image-section" style="background-image: url(/images/present.jpg);">
+  <h2>
+    WE PRESENT ...
+  </h2>
+</div>
+<div class="image-section" style="background-image: url(/images/work_together.jpg);">
+  <h2>
+    WE WORK TOGETHER ...
+  </h2>
+</div>
+<div class="image-section" style="background-image: url(/images/sax_brain.jpg);">
+  <h2>
+    WE CONNECT A SAX TO A BRAIN ...
+  </h2>
+</div>
+<div class="image-section" style="background-image: url(/images/vr_glasses.jpg);">
+  <h2>
+    WE DO VR ...
+  </h2>
+</div>-->
+  

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="{{ site.base_url }}/css/syntax.css">
@@ -12,33 +12,88 @@
     <link rel="stylesheet" href="{{ site.base_url }}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.base_url }}/css/bootstrap-theme.css">
     <link rel="stylesheet" href="{{ site.base_url }}/css/main.css">
+    
+    <link rel="stylesheet" media="(max-width: 600px)" href="{{ site.base_url }}/css/mobile.css" />
 
     <script type="text/javascript" src="//use.typekit.net/cej7ijo.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-92395226-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="col-md-12">
-          <img class="logo" src="{{ site.base_url }}/images/logo.png" />
+          <a href="{{ site.base_url }}/"><img class="logo" src="{{ site.base_url }}/images/logo.png" /></a>
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="/about/">About</a></li>
+            <li><a href="{{ site.base_url }}/">About</a></li>
+            <li><a href="http://schmiedehallein.com/blog/" target="_BLANK">Blog</a></li>
+            <li><a href="{{ site.base_url }}/location/">Location</a></li>
+            <li><a href="https://schmiede.tumblr.com/tagged/ortung" class="btn btn-primary btn-lg yellow" style="font-weight: normal;">ORTung</a> </li> 
+            <li><a href="http://schmiede.ca/apply/" class="btn btn-primary btn-lg yellow" style="font-weight: normal;">APPLY</a> </li> 
+            <li><a href="{{ site.base_url }}/medienkunstpreis/">JS Medienkunst</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="main">
       {{ content }}
-
       <div class="footer">
-        <div class="contact">
-        </div>
-        <div class="contact">
-          <p>
-            <a href="https://github.com/yourusername">github.com/yo11urusername</a><br />
-            <a href="https://twitter.com/yourusername">twitter.com/1</a><br />
-          </p>
+        <div class="container">
+          <div class="col-md-4">
+            <h3>SCHMIEDE</h3>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/schmiedehallein">Facebook page</a>
+              </li>
+              <li>
+                <a href="http://www.flickr.com/groups/schmiede/">Flickr group</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/SchmiedeHallein/">Twitter</a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/groups/schmiede">Soundcloud</a>
+              </li>
+              <li>
+                <a href="https://vimeo.com/groups/110342">Vimeo</a>
+              </li>
+              <li>
+                <a href="/partners.html">Partners</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>GET INVOLVED</h3>
+            <ul>
+              <li>
+                <a href="/apply/">Apply</a>
+              </li>
+              <li>
+               <!-- <a href="/medienkunstpreis/">Medienkunstpreis</a> -->
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <!--<img src="{{ site.base_url }}/images/anvil.png" />-->
+            <h3>OTHER</h3>
+            <ul>
+              <li>
+                <a href="{{ site.base_url }}/impressum.html">Impressum/Contact</a>
+              </li>
+              <li>
+                <a href="{{ site.base_url }}/tos.html">Terms of service</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
